@@ -6,3 +6,7 @@
 - Simulaciones
 - Mediciones
 - etc
+
+Progreso de TP<br />
+![Progress](http://progressed.io/bar/5)<br />
+<br />
