@@ -8,5 +8,5 @@
 - etc
 
 Progreso de TP<br />
-![Progress](http://progressed.io/bar/6)<br />
+![Progress](http://progressed.io/bar/8)<br />
 <br />
