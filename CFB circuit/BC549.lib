@@ -1,47 +1,7 @@
-* BC549/550 NPN EPITAXIAL SILICON TRANSISTOR ELECTRICAL PARAMETERS
-*--------------------------------------------------------------------
-* Switching and Amplifier
-* Vcbo & Vceo: BC549(Vcbo:30V / Vceo:30V)
-*              BC550(Vcbo:50V / Vceo:45V)
-*--------------------------------------------------------------------
-* MODEL PARAMETERS FROM MEASURED DATA: BC549
-*--------------------------------------------------------------------
-.MODEL  BC549 NPN
-+ LEVEL = 1
-+ IS    = 2.24183E-14
-+ NF    = 0.996496
-+ ISE   = 1.90217E-14
-+ NE    = 2
-+ BF    = 228.4
-+ IKF   = 0.211766
-+ VAF   = 161.939
-+ NR    = 0.993
-+ ISC   = 4.7863E-15
-+ NC    = 0.996 
-+ BR    = 12.1807
-+ IKR   = 0.3423
-+ VAR   = 123.229
-+ RB    = 167.033
-+ IRB   = 7.079458E-05
-+ RBM   = 1.12256
-+ RE    = 0.036
-+ RC    = 0.79
-+ XTB   = 1.65
-+ EG    = 1.1737
-+ XTI   = 3
-+ CJE   = 1.87E-11
-+ VJE   = 0.732
-+ MJE   = 0.33
-+ CJC   = 6.16E-12
-+ VJC   = 0.395
-+ MJC   = 0.251
-+ XCJC  = 0.6192
-+ FC    = 0.5 
-+ TF    = 518.15E-12
-+ XTF   = 10
-+ VTF   = 10
-+ ITF   = 1
-+ TR    = 10.000E-9
-* -------------------------------------------------------------------
-* FAIRCHILD       CASE: TO-92        PID: BC549/550
-* APR-12-2001 CREATION
+.model BC549 npn
++IS=7.59E-15 VAF=73.4 BF=480 IKF=0.0962 NE=1.2665
++ISE=3.278E-15 IKR=0.03 ISC=2.00E-13 NC=1.2 NR=1 BR=5 RC=0.25
++CJC=6.33E-12
++FC=0.5 MJC=0.33 VJC=0.65 CJE=1.25E-11 MJE=0.55 VJE=0.65
++TF=4.26E-10
++ITF=0.6 VTF=3 XTF=20 RB=100 IRB=0.0001 RBM=10 RE=0.5 TR=1.50E-07

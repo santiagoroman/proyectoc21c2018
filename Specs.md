@@ -1,4 +1,4 @@
-Especificaciones amplificador CF:
+*Especificaciones amplificador CF:*
 
 A continuación se dan las especificaciones mínimas que debe cumplir el prototipo al momento de su presentación. 
 El resto de las especificaciones son abiertas y deberán ser definidas en su totalidad por los estudiantes como
@@ -8,17 +8,17 @@ para sistemas de audio comerciales.
 Potencia:
 40 WRMS @ 8 Ohm
 
-Ancho de banda de potencia > 500kHz.
+Ancho de banda de potencia > 500 kHz.
 
-SNR >80dB
+SNR > 80dB
 
-Factor de amortiguamiento >100
+Factor de amortiguamiento > 100
 
 THD:
 1kHz & 1W: 0.02%
 1kHz & 40W: 0.1%
 
-IMD (SMPTE) <-70dB
+IMD (SMPTE) <- 70dB
 
 Nota1: La utilización de un servo de DC es obligatorio.
 
