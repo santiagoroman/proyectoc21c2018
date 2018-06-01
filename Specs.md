@@ -6,19 +6,19 @@ parte del diseño concepual del proyecto, tanto a partir de las especificaciones
 para sistemas de audio comerciales.
 
 Potencia:
-40 WRMS @ 8 Ohm
-
-Ancho de banda de potencia > 500 kHz.
-
-SNR > 80dB
-
-Factor de amortiguamiento > 100
-
-THD:
-1kHz & 1W: 0.02%
-1kHz & 40W: 0.1%
-
-IMD (SMPTE) <- 70dB
+- [X] 40 WRMS @ 8 Ohm
+ 
+- [X] Ancho de banda de potencia > 500 kHz.
+ 
+- [ ] SNR > 80dB
+ 
+- [ ] Factor de amortiguamiento > 100
+ 
+- [ ] THD:
+- [ ] 1kHz & 1W: 0.02%
+- [ ] 1kHz & 40W: 0.1%
+ 
+- [ ] IMD (SMPTE) <- 70dB
 
 Nota1: La utilización de un servo de DC es obligatorio.
 
