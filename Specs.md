@@ -10,7 +10,7 @@ Potencia:
  
 - [X] Ancho de banda de potencia > 500 kHz.
  
-- [ ] SNR > 80dB
+- [X] SNR > 80dB
  
 - [ ] Factor de amortiguamiento > 100
  
