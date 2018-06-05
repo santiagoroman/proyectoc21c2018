@@ -30,3 +30,16 @@ Nota4: Dado que se requiere un sistema DC servo en el diseño, el acoplamiento d
 debe hacerse sin capacitores, lo que significa “ningún capacitor en el camino de la señal desde la entrada hasta la carga”. 
 Notar que esto implica que tampoco haya capacitores de desacople en el lazo de realimentación principal 
 (el otro lazo es del DC servo)
+
+
+
+| 	        | Simulacion    | Mediciones  |
+|-------------- |:-------------:| -----------:|
+| Ancho de Banda| 2.93MHz       |   NM        |
+| SNR           | 116 dB        |   NM        |
+| BW potencia   |               |   NM        |
+| Potencia RMS  | 46 W          |   NM        |
+| Vin           | 1V            |   NM        |
+| THD           |               |   NM        |
+| Slew Rate     |               |   NM        |
+| Ganancia      | 21.15         |   NM        |
