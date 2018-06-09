@@ -14,9 +14,9 @@ Potencia:
  
 - [ ] Factor de amortiguamiento > 100
  
-- [ ] THD:
-- [ ] 1kHz & 1W: 0.02%
-- [ ] 1kHz & 40W: 0.1%
+- THD:
+- [X] 1kHz & 1W: 0.02%
+- [X] 1kHz & 40W: 0.1%
  
 - [ ] IMD (SMPTE) <- 70dB
 

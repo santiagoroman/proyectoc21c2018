@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CurrentFeedbackAmp-rescue)(type Legacy)(uri ${KIPRJMOD}/CurrentFeedbackAmp-rescue.lib)(options "")(descr ""))
+)
