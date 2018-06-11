@@ -12,7 +12,7 @@ Potencia:
  
 - [X] SNR > 80dB
  
-- [ ] Factor de amortiguamiento > 100
+- [X] Factor de amortiguamiento > 100
  
 - THD:
 - [X] 1kHz & 1W: 0.02%
@@ -37,9 +37,10 @@ Notar que esto implica que tampoco haya capacitores de desacople en el lazo de r
 |-------------- |:-------------:| -----------:|
 | Ancho de Banda| 2.93MHz       |   NM        |
 | SNR           | 116 dB        |   NM        |
-| BW potencia   |               |   NM        |
+| BW potencia   | 608kHz        |   NM        |
 | Potencia RMS  | 46 W          |   NM        |
 | Vin           | 1V            |   NM        |
-| THD           |               |   NM        |
+| THD 1kHz@1W   | 0.000111      |   NM        |
+| THD 1kHz@40W  | 0.036         |   NM        |
 | Slew Rate     |               |   NM        |
 | Ganancia      | 21.15         |   NM        |
