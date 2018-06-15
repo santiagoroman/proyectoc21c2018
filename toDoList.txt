@@ -1,0 +1,7 @@
+-Proteccion de continua en la carga
+
+-Agregar resistencia en la etapa de salida para regulacion termina
+
+-Proteccion de exceso de corriente a la salida (foldback o comun, reusando la resistencia anterior)
+
+
