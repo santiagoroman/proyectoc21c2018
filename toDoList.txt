@@ -4,4 +4,4 @@
 
 -Proteccion de exceso de corriente a la salida (foldback o comun, reusando la resistencia anterior)
 
-
+-Separar en el PCB las pistas de entrada de las de salida
