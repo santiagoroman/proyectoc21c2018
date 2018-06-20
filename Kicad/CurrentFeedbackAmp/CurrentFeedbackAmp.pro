@@ -1,4 +1,4 @@
-update=Tue 19 Jun 2018 07:01:11 PM -03
+update=Wed 20 Jun 2018 05:22:35 PM -03
 version=1
 last_client=kicad
 [general]
@@ -126,3 +126,4 @@ LibName92=Xicor
 LibName93=xilinx
 LibName94=zetex
 LibName95=Zilog
+LibName96=ECA-1HM101
