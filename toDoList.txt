@@ -1,7 +1,11 @@
--Proteccion de continua en la carga
+- Agregar resistencia en la etapa de salida para regulacion termina
 
--Agregar resistencia en la etapa de salida para regulacion termina
+- Proteccion de continua en la carga
 
--Proteccion de exceso de corriente a la salida (foldback o comun, reusando la resistencia anterior)
+- Proteccion de exceso de corriente a la salida (foldback o comun, reusando la resistencia anterior)
 
--Separar en el PCB las pistas de entrada de las de salida
+- Separar en el PCB las pistas de entrada de las de salida
+
+- Agregar capacitores de 1000uF aprox con la alimentacion de manera tal de no exigir tanto a la fuente
+
+- Asegurarse que el camino de realimentacion (entre salida y entrada al buffer) sea lo más corto posible en el PCB
