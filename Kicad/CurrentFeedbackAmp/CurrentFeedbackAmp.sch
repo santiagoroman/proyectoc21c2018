@@ -1000,28 +1000,6 @@ F 3 "" H 4450 7800 50  0001 C CNN
 	1    4450 7800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Conn_01x01 J7
-U 1 1 5B2D255D
-P 3500 7950
-F 0 "J7" H 3500 8050 50  0000 C CNN
-F 1 "VddTL" H 3500 7850 50  0000 C CNN
-F 2 "Connectors:PINTST" H 3500 7950 50  0001 C CNN
-F 3 "" H 3500 7950 50  0001 C CNN
-	1    3500 7950
-	0    1    1    0   
-$EndComp
-$Comp
-L Conn_01x01 J6
-U 1 1 5B2D351D
-P 3300 7050
-F 0 "J6" H 3300 7150 50  0000 C CNN
-F 1 "VccTL" H 3300 6950 50  0000 C CNN
-F 2 "Connectors:PINTST" H 3300 7050 50  0001 C CNN
-F 3 "" H 3300 7050 50  0001 C CNN
-	1    3300 7050
-	-1   0    0    1   
-$EndComp
 Text GLabel 2100 7450 0    60   Input ~ 0
 DC.servo.Output
 Text GLabel 5100 7550 2    60   Input ~ 0
@@ -1685,50 +1663,6 @@ F 3 "" H 12200 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 J19
-U 1 1 5B2F00E4
-P 10150 6750
-F 0 "J19" H 10150 6850 50  0000 C CNN
-F 1 "Vcc" H 10150 6650 50  0000 C CNN
-F 2 "Connectors:PINTST" H 10150 6750 50  0001 C CNN
-F 3 "" H 10150 6750 50  0001 C CNN
-	1    10150 6750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x01 J22
-U 1 1 5B2F0327
-P 11700 6750
-F 0 "J22" H 11700 6850 50  0000 C CNN
-F 1 "Vdd" H 11700 6650 50  0000 C CNN
-F 2 "Connectors:PINTST" H 11700 6750 50  0001 C CNN
-F 3 "" H 11700 6750 50  0001 C CNN
-	1    11700 6750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x01 J21
-U 1 1 5B2F0A21
-P 11150 6750
-F 0 "J21" H 11150 6850 50  0000 C CNN
-F 1 "VccTL" H 11150 6650 50  0000 C CNN
-F 2 "Connectors:PINTST" H 11150 6750 50  0001 C CNN
-F 3 "" H 11150 6750 50  0001 C CNN
-	1    11150 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J24
-U 1 1 5B2F0C98
-P 12700 6750
-F 0 "J24" H 12700 6850 50  0000 C CNN
-F 1 "VddTL" H 12700 6650 50  0000 C CNN
-F 2 "Connectors:PINTST" H 12700 6750 50  0001 C CNN
-F 3 "" H 12700 6750 50  0001 C CNN
-	1    12700 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L TL082 U2
 U 2 1 5B2F3391
 P 3400 8700
@@ -1739,30 +1673,8 @@ F 3 "" H 3400 8700 50  0001 C CNN
 	2    3400 8700
 	-1   0    0    1   
 $EndComp
-$Comp
-L Conn_01x01 J26
-U 1 1 5B2F3B6E
-P 3300 8300
-F 0 "J26" H 3300 8400 50  0000 C CNN
-F 1 "VccTL" H 3300 8200 50  0000 C CNN
-F 2 "Connectors:PINTST" H 3300 8300 50  0001 C CNN
-F 3 "" H 3300 8300 50  0001 C CNN
-	1    3300 8300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3500 8400 3500 8300
-$Comp
-L Conn_01x01 J27
-U 1 1 5B2F3E34
-P 3500 9200
-F 0 "J27" H 3500 9300 50  0000 C CNN
-F 1 "VddTL" H 3500 9100 50  0000 C CNN
-F 2 "Connectors:PINTST" H 3500 9200 50  0001 C CNN
-F 3 "" H 3500 9200 50  0001 C CNN
-	1    3500 9200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3700 8600 4250 8600
 Wire Wire Line
@@ -1774,14 +1686,34 @@ Wire Wire Line
 Wire Wire Line
 	3000 8700 3100 8700
 $Comp
-L Conn_01x01 J?
+L Conn_01x01 J25
 U 1 1 5B2EBC4E
 P 3900 8800
-F 0 "J?" H 3900 8900 50  0000 C CNN
+F 0 "J25" H 3900 8900 50  0000 C CNN
 F 1 "Masa Reguladores" H 3900 8700 50  0000 C CNN
 F 2 "Connectors:PINTST" H 3900 8800 50  0001 C CNN
 F 3 "" H 3900 8800 50  0001 C CNN
 	1    3900 8800
 	1    0    0    -1  
 $EndComp
+Text GLabel 3500 9000 0    60   Input ~ 0
+VddTL
+Text GLabel 3500 7750 0    60   Input ~ 0
+VddTL
+Text GLabel 3500 8300 0    60   Input ~ 0
+VccTL
+Text GLabel 3500 7050 0    60   Input ~ 0
+VccTL
+Text GLabel 10950 6750 2    60   Input ~ 0
+VccTL
+Text GLabel 12500 6750 2    60   Input ~ 0
+VddTL
+Text GLabel 11000 1600 1    60   Input ~ 0
+Vcc
+Text GLabel 11050 5600 3    60   Input ~ 0
+Vdd
+Text GLabel 11900 6750 0    60   Input ~ 0
+Vdd
+Text GLabel 10350 6750 0    60   Input ~ 0
+Vcc
 $EndSCHEMATC
