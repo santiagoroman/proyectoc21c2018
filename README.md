@@ -23,5 +23,5 @@ A considerar a la hora de hacer el proyecto:
 
 
 Progreso de TP<br />
-![Progress](http://progressed.io/bar/14)<br />
+![Progress](http://progressed.io/bar/17)<br />
 <br />
