@@ -35,12 +35,12 @@ Notar que esto implica que tampoco haya capacitores de desacople en el lazo de r
 
 | 	        | Simulacion    | Mediciones  |
 |-------------- |:-------------:| -----------:|
-| Ancho de Banda| 2.93MHz       |   NM        |
-| SNR           | 116 dB        |   NM        |
-| BW potencia   | 608kHz        |   NM        |
-| Potencia RMS  | 46 W          |   NM        |
+| Ancho de Banda| 1.22MHz       |   NM        |
+| SNR           | 116*dB        |   NM        |
+| BW potencia   | 608*kHz       |   NM        |
+| Potencia RMS  | 40 W          |   NM        |
 | Vin           | 1V            |   NM        |
-| THD 1kHz@1W   | 0.000111      |   NM        |
-| THD 1kHz@40W  | 0.036         |   NM        |
+| THD 1kHz@1W   | 0.000111*     |   NM        |
+| THD 1kHz@40W  | 0.036*        |   NM        |
 | Slew Rate     |               |   NM        |
-| Ganancia      | 21.15         |   NM        |
+| Ganancia      | 25.02         |   NM        |
