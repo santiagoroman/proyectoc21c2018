@@ -2156,7 +2156,7 @@ U 1 1 5BA82438
 P 20100 1250
 F 0 "J6" H 20100 1350 50  0000 C CNN
 F 1 "Conector Vcc" H 20100 1150 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 20100 1250 50  0001 C CNN
+F 2 "Connectors:Banana_Jack_1Pin" H 20100 1250 50  0001 C CNN
 F 3 "" H 20100 1250 50  0001 C CNN
 	1    20100 1250
 	1    0    0    -1  
@@ -2167,7 +2167,7 @@ U 1 1 5BA841FD
 P 20250 5750
 F 0 "J7" H 20250 5850 50  0000 C CNN
 F 1 "Conector Vdd" H 20250 5650 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 20250 5750 50  0001 C CNN
+F 2 "Connectors:Banana_Jack_1Pin" H 20250 5750 50  0001 C CNN
 F 3 "" H 20250 5750 50  0001 C CNN
 	1    20250 5750
 	1    0    0    -1  
