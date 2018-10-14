@@ -22,6 +22,7 @@ A considerar a la hora de hacer el proyecto:
 - [ ] Proteccion de exceso de corriente a la salida (foldback o comun, reusando la resistencia anterior)
 
 
-Progreso de TP<br />
-![Progress](http://progressed.io/bar/17)<br />
+Progreso de TP V2.0<br />
+![Progress](http://progressed.io/bar/32)<br />
 <br />
+Tener en cuenta que la vez pasada se nos quemaron muchos BD y TIP, entonces es mejor que solo tenga pistas de un lado. Asi no desoldamos mucho cada vez<br />
