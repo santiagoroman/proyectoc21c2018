@@ -23,6 +23,6 @@ A considerar a la hora de hacer el proyecto:
 
 
 Progreso de TP V2.0<br />
-![Progress](http://progressed.io/bar/32)<br />
+![Progress](http://progressed.io/bar/45)<br />
 <br />
 Tener en cuenta que la vez pasada se nos quemaron muchos BD y TIP, entonces es mejor que solo tenga pistas de un lado. Asi no desoldamos mucho cada vez<br />
