@@ -104,28 +104,6 @@ F 3 "" H 15250 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:R R10
-U 1 1 5B1B09FA
-P 16650 5500
-F 0 "R10" H 16718 5546 50  0000 L CNN
-F 1 "150" H 16718 5455 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 16650 5500 50  0001 C CNN
-F 3 "" H 16650 5500 50  0001 C CNN
-	1    16650 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:R R5
-U 1 1 5B1B0D1C
-P 17300 1500
-F 0 "R5" H 17368 1546 50  0000 L CNN
-F 1 "150" H 17368 1455 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 17300 1500 50  0001 C CNN
-F 3 "" H 17300 1500 50  0001 C CNN
-	1    17300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L pspice:R R16
 U 1 1 5B1B0E0A
 P 17750 2250
@@ -289,50 +267,6 @@ F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 14688 2950 50  0001 C CNN
 F 3 "" H 14650 3100 50  0001 C CNN
 	1    14650 3100
 	1    0    0    -1  
-$EndComp
-$Comp
-L CurrentFeedbackAmp-rescue:BC549 Q20
-U 1 1 5B2A918E
-P 16550 2900
-F 0 "Q20" H 16750 2975 50  0000 L CNN
-F 1 "BD135" H 16750 2900 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 16750 2825 50  0001 L CIN
-F 3 "" H 16550 2900 50  0001 L CNN
-	1    16550 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CurrentFeedbackAmp-rescue:BC549 Q22
-U 1 1 5B2AD8D9
-P 16550 4850
-F 0 "Q22" H 16750 4925 50  0000 L CNN
-F 1 "BD135" H 16750 4850 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 16750 4775 50  0001 L CIN
-F 3 "" H 16550 4850 50  0001 L CNN
-	1    16550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L CurrentFeedbackAmp-rescue:BC559 Q21
-U 1 1 5B2AE546
-P 17050 4400
-F 0 "Q21" H 17250 4475 50  0000 L CNN
-F 1 "BC559" H 17250 4400 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 17250 4325 50  0001 L CIN
-F 3 "" H 17050 4400 50  0001 L CNN
-	1    17050 4400
-	1    0    0    1   
-$EndComp
-$Comp
-L CurrentFeedbackAmp-rescue:BC559 Q19
-U 1 1 5B2B2794
-P 17200 2350
-F 0 "Q19" H 17400 2425 50  0000 L CNN
-F 1 "BC559" H 17400 2350 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 17400 2275 50  0001 L CIN
-F 3 "" H 17200 2350 50  0001 L CNN
-	1    17200 2350
-	1    0    0    1   
 $EndComp
 $Comp
 L CurrentFeedbackAmp-rescue:BD135 Q33
@@ -546,12 +480,12 @@ $EndComp
 $Comp
 L CurrentFeedbackAmp-rescue:Conn_01x01 J8
 U 1 1 5B2CCCA6
-P 16900 4000
-F 0 "J8" H 16900 4100 50  0000 C CNN
-F 1 "Test_Etapa_3_Inf" H 16900 3900 50  0000 C CNN
-F 2 "Connectors:PINTST" H 16900 4000 50  0001 C CNN
-F 3 "" H 16900 4000 50  0001 C CNN
-	1    16900 4000
+P 16600 4650
+F 0 "J8" H 16600 4750 50  0000 C CNN
+F 1 "Test_Etapa_3_Inf" H 16600 4550 50  0000 C CNN
+F 2 "Connectors:PINTST" H 16600 4650 50  0001 C CNN
+F 3 "" H 16600 4650 50  0001 C CNN
+	1    16600 4650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1426,28 +1360,6 @@ Vdd5
 Text GLabel 13250 3750 0    60   Input ~ 0
 Vin-
 $Comp
-L device:C C1
-U 1 1 5BA47998
-P 12450 3650
-F 0 "C1" H 12475 3750 50  0000 L CNN
-F 1 "0.3p" H 12475 3550 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 12488 3500 50  0001 C CNN
-F 3 "" H 12450 3650 50  0001 C CNN
-	1    12450 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L device:C C2
-U 1 1 5BA47B2D
-P 12450 3850
-F 0 "C2" H 12475 3950 50  0000 L CNN
-F 1 "0.3p" H 12475 3750 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 12488 3700 50  0001 C CNN
-F 3 "" H 12450 3850 50  0001 C CNN
-	1    12450 3850
-	0    1    1    0   
-$EndComp
-$Comp
 L device:R R31
 U 1 1 5BA4B63A
 P 15600 4400
@@ -1604,25 +1516,14 @@ F 3 "" H 15050 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C CN1
-U 1 1 5C5E2333
-P 13050 2350
-F 0 "CN1" H 13075 2450 50  0000 L CNN
-F 1 "100n" H 13075 2250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 13088 2200 50  0001 C CNN
-F 3 "" H 13050 2350 50  0001 C CNN
-	1    13050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L pspice:R RN1
 U 1 1 5C5E2547
-P 13600 2400
-F 0 "RN1" H 13668 2446 50  0000 L CNN
-F 1 "18k" H 13668 2355 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 13600 2400 50  0001 C CNN
-F 3 "" H 13600 2400 50  0001 C CNN
-	1    13600 2400
+P 13300 2400
+F 0 "RN1" H 13368 2446 50  0000 L CNN
+F 1 "18k" H 13368 2355 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 13300 2400 50  0001 C CNN
+F 3 "" H 13300 2400 50  0001 C CNN
+	1    13300 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1634,6 +1535,28 @@ F 1 "10" H 13368 3355 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 13300 3400 50  0001 C CNN
 F 3 "" H 13300 3400 50  0001 C CNN
 	1    13300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R RE2
+U 1 1 5C5EE027
+P 13300 4100
+F 0 "RE2" H 13368 4146 50  0000 L CNN
+F 1 "10" H 13368 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 13300 4100 50  0001 C CNN
+F 3 "" H 13300 4100 50  0001 C CNN
+	1    13300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R RN2
+U 1 1 5C5F3C40
+P 13300 5250
+F 0 "RN2" H 13368 5296 50  0000 L CNN
+F 1 "18k" H 13368 5205 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 13300 5250 50  0001 C CNN
+F 3 "" H 13300 5250 50  0001 C CNN
+	1    13300 5250
 	1    0    0    -1  
 $EndComp
 Connection ~ 15250 1250
@@ -1656,8 +1579,6 @@ Wire Wire Line
 	14450 5050 14950 5050
 Wire Wire Line
 	14900 5050 14900 4850
-Wire Wire Line
-	14900 4850 16350 4850
 Connection ~ 14900 5050
 Wire Wire Line
 	15250 2200 15250 2450
@@ -1668,12 +1589,9 @@ Wire Wire Line
 Connection ~ 14650 4600
 Wire Wire Line
 	14150 1250 19900 1250
-Connection ~ 16650 5750
 Wire Wire Line
 	14150 2650 14950 2650
 Connection ~ 14650 2650
-Wire Wire Line
-	17300 2150 17300 1750
 Wire Wire Line
 	18300 1450 18300 2050
 Wire Wire Line
@@ -1684,7 +1602,6 @@ Wire Wire Line
 Wire Wire Line
 	18850 750  18850 1600
 Connection ~ 18850 1450
-Connection ~ 17300 1250
 Wire Wire Line
 	18850 2750 18850 2000
 Wire Wire Line
@@ -1713,7 +1630,6 @@ Wire Wire Line
 	18300 4650 19000 4650
 Wire Wire Line
 	18850 3850 18850 4900
-Connection ~ 17150 5750
 Connection ~ 18850 5450
 Connection ~ 18850 3300
 Wire Wire Line
@@ -1842,31 +1758,14 @@ Wire Wire Line
 Wire Wire Line
 	16200 2900 16200 3000
 Connection ~ 16200 4400
-Wire Wire Line
-	17150 5750 17150 4600
-Wire Wire Line
-	16650 5050 16650 5250
-Wire Wire Line
-	16650 3100 16650 4650
-Wire Wire Line
-	16650 1250 16650 2700
-Connection ~ 16650 1250
 Connection ~ 16200 2900
 Wire Wire Line
 	17500 3150 17500 2250
 Wire Wire Line
 	16650 3150 17500 3150
-Connection ~ 16650 3150
-Wire Wire Line
-	14800 2350 17000 2350
 Connection ~ 15250 2350
 Wire Wire Line
 	14800 2000 14800 2350
-Wire Wire Line
-	17300 4200 17150 4200
-Wire Wire Line
-	17300 2550 17300 4850
-Connection ~ 17300 4200
 Wire Wire Line
 	900  3450 1750 3450
 Connection ~ 900  3450
@@ -1935,8 +1834,6 @@ Wire Wire Line
 Wire Wire Line
 	11600 4100 11600 4000
 Wire Wire Line
-	10350 4100 11900 4100
-Wire Wire Line
 	10350 4100 10350 4000
 Wire Wire Line
 	10950 4100 10950 4250
@@ -1998,8 +1895,6 @@ Wire Wire Line
 Wire Wire Line
 	11650 4800 11650 4900
 Wire Wire Line
-	12250 4800 10400 4800
-Wire Wire Line
 	10400 4800 10400 4900
 Wire Wire Line
 	11000 4800 11000 4650
@@ -2036,10 +1931,6 @@ Wire Wire Line
 Connection ~ 8650 1650
 Wire Wire Line
 	8650 1100 9350 1100
-Connection ~ 11600 4100
-Wire Wire Line
-	12250 3850 12250 4800
-Connection ~ 11650 4800
 Wire Wire Line
 	15250 4050 15650 4050
 Wire Wire Line
@@ -2061,7 +1952,7 @@ Wire Wire Line
 Wire Wire Line
 	15450 2900 15250 2900
 Wire Wire Line
-	15750 2900 16350 2900
+	15750 2900 16650 2900
 Wire Wire Line
 	15950 3600 16200 3600
 Connection ~ 16200 3600
@@ -2077,9 +1968,6 @@ Wire Wire Line
 Wire Wire Line
 	16950 3150 16950 3250
 Connection ~ 16950 3150
-Wire Wire Line
-	17100 4000 17300 4000
-Connection ~ 17300 4000
 Wire Wire Line
 	19150 5750 19150 7950
 Connection ~ 19150 5750
@@ -2136,21 +2024,9 @@ Connection ~ 14800 2000
 Wire Wire Line
 	14150 2200 14150 2650
 Wire Wire Line
-	13050 2150 13050 2200
-Connection ~ 13600 2150
-Wire Wire Line
-	13050 2500 13050 2700
-Wire Wire Line
 	14150 2200 13700 2200
 Wire Wire Line
 	13700 2200 13700 2150
-Wire Wire Line
-	13700 2150 13050 2150
-Wire Wire Line
-	13050 2700 13600 2700
-Wire Wire Line
-	13600 2700 13600 2650
-Connection ~ 13300 2700
 Wire Wire Line
 	13000 2900 12500 2900
 Wire Wire Line
@@ -2160,84 +2036,46 @@ Wire Wire Line
 Wire Wire Line
 	13300 3150 13300 3100
 Wire Wire Line
-	13300 3650 12600 3650
-Wire Wire Line
-	12300 3650 11900 3650
-Wire Wire Line
-	11900 3650 11900 4100
-$Comp
-L pspice:R RE2
-U 1 1 5C5EE027
-P 13300 4100
-F 0 "RE2" H 13368 4146 50  0000 L CNN
-F 1 "10" H 13368 4055 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 13300 4100 50  0001 C CNN
-F 3 "" H 13300 4100 50  0001 C CNN
-	1    13300 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	14950 4600 14650 4600
 Connection ~ 14150 4850
 Wire Wire Line
 	13300 3650 13300 3850
 Wire Wire Line
-	13300 3850 12600 3850
-Wire Wire Line
-	12300 3850 12250 3850
-Connection ~ 12250 4050
-Wire Wire Line
 	13250 3750 13300 3750
 Connection ~ 13300 3750
-$Comp
-L device:C CN2
-U 1 1 5C5F3C3A
-P 13000 5200
-F 0 "CN2" H 13025 5300 50  0000 L CNN
-F 1 "100n" H 13025 5100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 13038 5050 50  0001 C CNN
-F 3 "" H 13000 5200 50  0001 C CNN
-	1    13000 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:R RN2
-U 1 1 5C5F3C40
-P 13550 5250
-F 0 "RN2" H 13618 5296 50  0000 L CNN
-F 1 "18k" H 13618 5205 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 13550 5250 50  0001 C CNN
-F 3 "" H 13550 5250 50  0001 C CNN
-	1    13550 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13000 4900 13000 5050
-Connection ~ 13550 5000
-Wire Wire Line
-	13000 5350 13000 5550
-Wire Wire Line
-	13000 5550 13550 5550
-Wire Wire Line
-	13550 5550 13550 5500
-Connection ~ 13250 5550
 Wire Wire Line
 	13800 4850 14650 4850
 Wire Wire Line
 	13800 4850 13800 5650
 Wire Wire Line
-	13800 5650 13250 5650
-Wire Wire Line
-	13250 5650 13250 5550
-Wire Wire Line
-	13550 5000 13550 4900
-Wire Wire Line
-	13550 4900 13000 4900
-Wire Wire Line
-	13300 4900 13300 4750
-Connection ~ 13300 4900
+	13300 4750 13300 5000
 Wire Wire Line
 	13000 4550 12750 4550
 Wire Wire Line
 	12750 4550 12750 6450
+Wire Wire Line
+	10350 4100 11600 4100
+Wire Wire Line
+	10400 4800 11650 4800
+Wire Wire Line
+	13300 5500 13300 5650
+Wire Wire Line
+	13300 5650 13800 5650
+Wire Wire Line
+	13700 2150 13300 2150
+Wire Wire Line
+	13300 2650 13300 2700
+Wire Wire Line
+	14800 2350 15250 2350
+Wire Wire Line
+	14900 4850 15250 4850
+Wire Wire Line
+	16850 4400 16850 4850
+Wire Wire Line
+	16850 4850 17300 4850
+Wire Wire Line
+	16800 4650 16850 4650
+Connection ~ 16850 4650
+Wire Wire Line
+	16650 2900 16650 3150
 $EndSCHEMATC
